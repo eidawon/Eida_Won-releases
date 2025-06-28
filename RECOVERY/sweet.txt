@@ -1,0 +1,30 @@
+TWRP, OFOX, PBRP changelogs!
+
+# TWRP
+Changelogs:
+• Synced the latest TeamWin sources
+• Added proper init variant-specifics
+• Added FUSE support for exFAT and NTFS
+• Allow direct image flashing for logical partitions
+• Set BOARD_BUILD_SYSTEM_ROOT_IMAGE to false
+• Proper clock and CPU text positions
+• Use core 64 bit only makefile
+• Misc...
+
+# OFOX (same with TWRP changes)
+Changelogs:
+• Synced the latest OrangeFox sources
+• Set OF_DEFAULT_KEYMASTER_VERSION to 4.1
+• Enable more useful tools of OrangeFox
+• Misc...
+
+# PBRP (same with TWRP changes)
+Changelogs:
+• Synced the latest PitchBlack sources
+• Set proper path for torch
+• Disable DM_VERITY_PATCH and DISABLE_DEFAULT_TREBLE_COMP by default
+• Misc...
+
+Disclaimer:
+OFOX and PBRP are based on TWRP, so most changes will be the same. However, there may be differences
+due to feature-specific implementations unique to each of their sources.
